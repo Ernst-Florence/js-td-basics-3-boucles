@@ -24,4 +24,14 @@
   3. Tentez d'afficher la valeur de i après être sorti de la boucle…
     - que se passe-t-il si vous avez déclaré i avec let ?
     - que se passe-t-il si vous déclarez i avec var ?
+    rien et rien
 */
+const nb = parseInt(prompt('Donner moi le nombre de la table de multiplication que vous souhaitez afficher !'));
+
+console.log(`Voici les 10 premières valeurs de la table de multiplication par ${nb}`);
+for (let i = 1; i <= 10; i++) {
+    console.log(`${i} * ${nb} = ${nb*i}`);
+}
+
+
+

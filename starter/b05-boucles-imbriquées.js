@@ -1,13 +1,14 @@
 /*****************************
-* 6. BOUCLES ET ITÉRATIONS
-* BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
-*/
+ * 6. BOUCLES ET ITÉRATIONS
+ * BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
+ */
+
 /* 6.5. Boucles imbriquées
   On peut très bien imbriquer une boucle dans une boucle.
   Syntaxe :
-    for (let i = ...; i ... ; i ...) {
-      for (let j = ...; j ...; j ...) {
-        // instructions qui font intervenir les deux compteurs i et j
+    for(let i = …; i … ; i …){
+      for(let j = …; j …; j …){
+        // instuctions qui font intervenir les deux compteurs i et j
       }
     }
   Principe de fonctionnement :
@@ -16,9 +17,13 @@
     - et puis la boucle externe (c'est celle qui boucle le plus lentement)
 */
 
+
 /*
-  Pour vous familiariser avec les boucles imbriquées :
-  - Faites une table d'évolution des variables !
-  - Écrivez l'expression à afficher dans le console.log d'une manière alternative,
-    en utilisant le concept de template littéral.
+  - Faire la table d'évolution des variables !!
+  - Ecrire l'expression à afficher dans le console.log autrement,
+    en utilisant le concept de template littéral
 */
+for (let i = 1; i <= 5; i++) {
+    for (let j =1; j<= 5; j++)
+        console.log(i, j)
+}

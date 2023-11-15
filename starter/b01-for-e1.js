@@ -25,7 +25,9 @@ EXEMPLE 1 :
 // 1°) sans boucle : Écrivez ici toutes les instructions à la main, une par une
 
 // 2°) avec boucle FOR : Écrivez ici le code de la boucle FOR
-
+for (let i =1;i<10;i++) {
+    console.log(i);
+}
 // N.B. TABLE D'ÉVOLUTION DES VARIABLES :
 //   nbre      nbre < =10           console.log(nbre)        nbre++
 // nbre = 1,   1 < 5 true,           affiche 1,          nbre passe à 1+1 = 2
@@ -33,3 +35,6 @@ EXEMPLE 1 :
 // ...
 // nbre = 10,  10 <= 10 true,        affiche 10,         nbre passe à 10+1 = 11
 // nbre = 11,  11 <= 10 FALSE,       on sort de la boucle !
+
+
+
